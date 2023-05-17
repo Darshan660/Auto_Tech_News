@@ -1,4 +1,4 @@
-from flask import Flask,url_for,render_template,request
+from flask import Flask,render_template
 from bs4 import BeautifulSoup
 import requests
 
@@ -16,3 +16,6 @@ def index():
         finalNews += '\u2022 '+news+'\n'
     #print(finalNews)
     return render_template("index.html",News=finalNews)
+
+if __name__ == '__main__':
+    app.run(debug=False,host='0.0.0.0')
