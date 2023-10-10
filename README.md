@@ -39,7 +39,7 @@ The project currently displays only the top 6 news articles. Users looking for a
 We welcome contributions from the community! If you'd like to contribute to Auto Tech News, please follow these guidelines:
 
 1. Fork this repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+2. Create a new branch for you.
 3. Make your changes and commit them: `git commit -m 'Add new feature'`
 4. Push your changes to your fork: `git push origin feature-name`
 5. Create a pull request, explaining your changes and why they should be merged.
